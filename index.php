@@ -15,7 +15,7 @@
 	AMOUNT :<br />
 	<input type="text" value="15000" name="amount"><br />
 	URL REDIRECT :<br />
-        <input type="text" value="https://sandbox.partner.api.bri.co.id/brimo/v1.0/auth-redirect/pg-new/aPayment" name="url_redirect"><br />
+        <input type="text" value="https://sandbox.partner.api.bri.co.id/brimo/v1.0/auth-redirect/pg-new/ePayment" name="url_redirect"><br />
 	<!--<input type="text" value="https://epayment.bri.co.id/pg-new/ePayment" name="url_redirect"><br />-->
 	
 	<input type="submit" value="PAY USING E-PAY!"/>
