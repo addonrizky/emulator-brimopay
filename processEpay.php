@@ -16,7 +16,7 @@ $headers = array(
 //echo "Bilref = ".$bilref." - Payee ID = ".$payid." - KeysTrxEcomm ".$keysTrxEcomm."<br />";
 
 // set URL and other appropriate options
-curl_setopt($ch, CURLOPT_URL, "http://10.35.65.18/payment_gateway/InsertPaymentParameters?payeeId=".$payid."&billReferenceNo=".$bilref."&keysTrxEcomm=".$keysTrxEcomm);
+curl_setopt($ch, CURLOPT_URL, "https://sandbox.partner.api.bri.co.id/brimo/v1.0/auth-redirect/payment_gateway/InsertPaymentParameters?payeeId=".$payid."&billReferenceNo=".$bilref."&keysTrxEcomm=".$keysTrxEcomm);
 curl_setopt($ch, CURLOPT_HEADER, 0);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 //curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
