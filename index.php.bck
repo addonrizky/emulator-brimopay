@@ -1,0 +1,70 @@
+<h4>SIMULATOR API BRI</h4><br />
+	<form action="processApiBri.php" method="GET">
+	<!-- <form action="processEpcatalogue.php" method="GET"> -->
+	
+	PRODUCT :<br />
+	<input type="text" value="Kopi Gingseng" name="name"><br />
+	TOTAL :<br />
+	<input type="text" value="1" name="total"><br />
+	AMOUNT :<br />
+	<input type="text" value="15000" name="amount"><br />
+	
+	<input type="submit" value="PAY USING E-PAY!"></input>
+	</form>
+
+	<h4>E-PAY Shop adalah Simulator untuk transaksi e-Pay</h4><br />
+	<form action="processEpay.php" method="GET">
+	<!-- <form action="processEpcatalogue.php" method="GET"> -->
+	
+	PRODUCT :<br />
+	<input type="text" value="Kopi Gingseng" name="name"><br />
+	TOTAL :<br />
+	<input type="text" value="1" name="total"><br />
+	AMOUNT :<br />
+	<input type="text" value="15000" name="amount"><br />
+	
+	<input type="submit" value="PAY USING E-PAY!"></input>
+	</form>
+
+	<h4>E-PAY Shop adalah Simulator untuk transaksi e-Pay Sandbox</h4><br />
+	<form action="processEpaySandbox.php" method="GET">
+	
+	PRODUCT :<br />
+	<input type="text" value="Kopi Gingseng" name="name"><br />
+	TOTAL :<br />
+	<input type="text" value="1" name="total"><br />
+	AMOUNT :<br />
+	<input type="text" value="15000" name="amount"><br />
+	
+	<input type="submit" value="PAY USING E-PAY!"></input>
+	</form>
+	
+
+	
+	<h4>Ini Emulator Ecatalogue</h4><br />
+	<!-- <form action="processEpay.php" method="GET"> -->
+	<form action="processEpcatalogue.php" method="GET">
+	
+	PRODUCT :<br />
+	<input type="text" value="Kopi Gingseng" name="name"><br />
+	TOTAL :<br />
+	<input type="text" value="1" name="total"><br />
+	AMOUNT :<br />
+	<input type="text" value="1" name="amount"><br />
+	
+	<input type="submit" value="PAY USING E-PAY!"></input>
+	</form>
+	
+	<h4>E-PAY Shop NEW adalah Simulator untuk transaksi e-Pay</h4><br />
+	<form action="processEpayNew.php" method="GET">
+	<!-- <form action="processEpcatalogue.php" method="GET"> -->
+	
+	PRODUCT :<br />
+	<input type="text" value="Kopi Stubruk" name="name"><br />
+	TOTAL :<br />
+	<input type="text" value="1" name="total"><br />
+	AMOUNT :<br />
+	<input type="text" value="15000" name="amount"><br />
+	
+	<input type="submit" value="PAY USING E-PAY!"></input>
+	</form>
